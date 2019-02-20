@@ -1,6 +1,6 @@
 ---
 kind: pipeline
-name: deiban-buster-jdk8-sbt-npm
+name: container-sbt-npm
 steps:
 - name: check for accidentally dropped creds
   image: yellowmegaman/container-trufflehog:2.0.98
