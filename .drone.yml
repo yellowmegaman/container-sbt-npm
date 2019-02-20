@@ -1,6 +1,6 @@
 ---
 kind: pipeline
-name: container-sbt-npm
+name: sbt-npm
 steps:
 - name: check for accidentally dropped creds
   image: yellowmegaman/container-trufflehog:2.0.98
